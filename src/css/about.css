@@ -1,0 +1,54 @@
+
+
+h4 {
+
+    font-family: 'Raleway';
+}
+
+.AboutMe {
+    background-color: white;
+    height: 75px;
+    margin: 0;
+    font-size: 75px;
+}
+
+.me {
+    height: 40em;
+    width: 25em;
+    margin-left: -.5em;
+    padding: 3px;
+}
+
+.JavascriptPic {
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+}
+
+.About {
+    background-color: white;
+    
+}
+
+#AboutRow {
+    padding-top: 60px;
+
+}
+
+#Resume {
+    padding-top: 20px;
+    margin-right: -4em;
+}
+
+.AboutHeader {
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 75px;
+}
+
+.AboutDesc {
+    text-align: center;
+    font-family: 'Railway';
+    font-size: 20px;
+    padding-bottom: 10px;
+}

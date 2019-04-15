@@ -1,0 +1,11 @@
+#contact {
+ background-color: white;
+ padding-top: 15em;
+}
+
+
+#ContactTitle {
+    text-align: center;
+    font-family: 'Railway';
+    font-size: 40px;
+}
