@@ -17,6 +17,9 @@
 
 
 
+<div class="block-container">
+  <div id="block" class="div-show block-main">
+    <div class="block">
 <div id="particle"></div>
 
 <div class="container"> 
@@ -35,46 +38,68 @@
                   <div class="row">
                     <div class="col-sm-12">
                     <div class="card-group">
-                        <div class="card">
+                        <div class="card border-0">
                             <a href="https://sports-db-api.firebaseapp.com/" target="_blank">
-                            <img class="card-img-top" src="./Assets/SportsAPI.jpg" alt="Sports API Image">
+                            <img class="card-img-top" id="image" src="./new assets/lebron.jpg" alt="Sports API Image">
                           </a>
                             <div class="card-body">
                               <h5 class="card-title" id="ProjectTitle">Sports API</h5>
+                              <p class="card-text" id="projectdescription">Sports DB was the first API I ever accessed. It gives you a description and an image of any player searched.  </p>
                             </div>
                           </div>
-                        <div class="card">
-                          <img class="card-img-top" src="./Assets/3DObject.png" alt="3D Object Image">
+                        <div class="card border-0">
+                            <a href="https://qcrabtree.github.io/Racket-Like-Ball/" target="_blank">
+                          <img class="card-img-top" id="Racketimage" src="./Assets/racketball.jpg" alt="Racket-Like Ball">
+                        </a>
                           <div class="card-body">
-                            <h5 class="card-title" id="ProjectTitle">3D Planet</h5>
+                            <h5 class="card-title" id="ProjectTitle">Racket-Like Ball</h5>
+                            <p class="card-text" id="projectdescription">A game made using JS that allows the user to control a racket to destroy bricks by hitting a ball into them. Check it out! </p>
                           </div>
                         </div>
-                        <div class="card">
-                            <img class="card-img-top" src="./Assets/CSSCreature.jpg" alt="CSS Creature Image">
+                        <div class="card border-0">
+                            <img class="card-img-top" id="Racketimage" src="./new assets/test egg.jpg" alt="CSS Creature Image">
+                          </a>
                             <div class="card-body">
                               <h5 class="card-title" id="ProjectTitle">CSS Creature</h5>
+                              <p class="card-text" id="projectdescription">My first use of CSS, An Easter Egg of Iron Man's Face.</p>
                             </div>
                           </div>
                           </div>
                         </div>
                         </div>
+                      </div>
+                      </div>
+                      <div id="overlay"></div>
+                      </div>
                         <div class="row">
                           <div class="col-sm-12">
                           <div class="card-group" id="cardgroup2">
-                            <div class="card">
-                              <a href="https://celestial-client.herokuapp.com/" target="_blank">
-                                <img class="card-img-top" src="./Assets/CelestialApp.jpg" alt="Celestial App Image">
-                              </a>
+                              <div class="card border-0">
+                                  <a href="https://celestial-client.herokuapp.com/" target="_blank">
+                                    <img class="card-img-top" id="image"  src="./Assets/CelestialApp.jpg" alt="Celestial App Image">
+                                  </a>
+                                  <div class="card-body">
+                                    <h5 class="card-title" id="ProjectTitle">Celestial App</h5>
+                                    <p class="card-text" id="projectdescription">A Full CRUD application, my first project I ever made using React.js. It allows users to log, add a description, upload an image, and set if their celestial bodies are habitable</p>
+                                  </div>
+                                </div>
+                            <div class="card border-0">
+                                <button type="button" class="btn" onclick="onBtnClick(); play();" id="btn">
+                                    <img class="card-img-top" id="gauntlet" id="Racketimage" src="./new assets/gauntlet2.jpeg">
+                                    </button>
+                                    <audio id="audio" src="./new assets/vanish.wav"></audio>
                               <div class="card-body">
-                                <h5 class="card-title" id="ProjectTitle">Celestial App</h5>
+                                <h5 class="card-title" id="ProjectTitle">The Infinity Gauntlet</h5>
+                                <p class="card-text" id="projectdescription">Bring balance to the webpage! Click again to bring it back!</p>
                               </div>
                             </div>
-                            <div class="card">
+                            <div class="card border-0">
                               <a href="https://vagabond-client-mi.herokuapp.com/" target="_blank">
-                                <img class="card-img-top" src="./Assets/Vagabond.jpg" alt="Vagabond Image">
+                                <img class="card-img-top" id="image" src="./Assets/Vagabond.jpg" alt="Vagabond Image">
                               </a>
                               <div class="card-body">
                                 <h5 class="card-title" id="ProjectTitle">Vagabond App</h5>
+                                <p class="card-text" id="projectdescription"> My first project done with a group of four, also my first Angular project. It has full CRUD, and allows users to store unique landmarks they have been to. </p>
                               </div>
                             </div>
                           </div>
@@ -95,8 +120,8 @@
       </div>
       <div class="col-sm-8" id="AboutRow">
         <p class="AboutHeader">About Me</p>
-        <p class="AboutDesc">I am an junior web developer currently looking for my first occupation in the web development world. I recently graduated Eleven Fifty Academy, where I learned about front and back end web development.</p>
-        <p class="AboutDesc">I pride myself on my deductive reasoning when it comes to solving problems, and I have a keen ability to learn new subjects in a short amount of time. </p>
+        <p class="AboutDesc">I am a junior web developer currently looking for my first occupation in the web development world. I recently graduated from Eleven Fifty Academy, where I learned about frontend and backend web development.</p>
+        <p class="AboutDesc">I pride myself on my deductive reasoning when it comes to solving problems, and I have an innate ability to learn new subjects in a short amount of time. </p>
         <div class="row">
           <div class="col-xs-3">
             <img src="Assets/JavaScript-logo.png" class="JavascriptPic">
@@ -199,6 +224,7 @@ crossorigin="anonymous"></script>
   <script>
       AOS.init();
     </script>
+     <script src="js/thanos.js"></script>
 </body>
 </html>
 

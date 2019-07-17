@@ -3,20 +3,28 @@
     margin: 0;
     height: 75px;
     font-size: 75px;
+    font-family: 'Raleway';
 }
 
-.Project {
-    background-color: white;
-    padding-bottom: 100px;
-}
+
 
 
 #ProjectTitle {
         text-align: center;
         font-family: 'Railway';
         font-size: 35px;
+
 }
 
 .card {
     margin: 0;
+}
+
+#projectdescription {
+    font-family: 'Railway';
+    font-size: 20px;
+}
+
+#Racketimage {
+    height: 32.7vh !important;
 }
