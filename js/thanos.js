@@ -27,7 +27,6 @@ function onBtnClick() {
     block.className = classReplace(block.className, "div-show", "div-hidden", "card-img-top")
     btn.innerHTML = "<img src=\"./new assets/snap gif.gif\" width=\"610px\" height=\"344px\">";
     const content = block.innerHTML;
-    this.audio.play();
     overlay.innerHTML = "<div class=\"div-overlay div-overlay-left\">" + content + "</div>" + "<div class=\"div-overlay div-overlay-right\">" + content + "</div>" + "<div class=\"card-img-top\">" + "</div>";
   } else {
     block.className = classReplace(block.className, "div-hidden", "div-show", "card-img-top")
