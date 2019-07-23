@@ -33,3 +33,13 @@
 #Racketfix {
 height: 317px !important;
 }
+
+
+.gaunt {
+    max-width: 340px;
+    max-height: 344px;
+    height:342px;
+    object-fit: cover;
+}
+
+

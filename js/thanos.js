@@ -25,12 +25,12 @@ function onBtnClick() {
 
   if (classHas(block.className, "div-show")) {
     block.className = classReplace(block.className, "div-show", "div-hidden", "card-img-top")
-    btn.innerHTML = "<img src=\"./new assets/snap gif.gif\" max-width=\"500px\" max-height=\"344px\" height=\"342px\">";
+    btn.innerHTML = "<img class=\"gaunt\" src=\"./new assets/snap gif.gif\" max-width=\"500px\" max-height=\"344px\" height=\"342px\">";
     const content = block.innerHTML;
     overlay.innerHTML = "<div class=\"div-overlay div-overlay-left\">" + content + "</div>" + "<div class=\"div-overlay div-overlay-right\">" + content + "</div>" + "<div class=\"card-img-top\">" + "</div>";
   } else {
     block.className = classReplace(block.className, "div-hidden", "div-show", "card-img-top")
-    btn.innerHTML = "<img src=\"./new assets/time.gif\" max-width=\"500px\" max-height=\"544px\" height=\"342px\" width=\"340px\">";
+    btn.innerHTML = "<img class=\"gaunt\" src=\"./new assets/time.gif\" max-width=\"500px\" max-height=\"544px\" height=\"342px\" width=\"340px\">";
     overlay.innerHTML = null;
   }
 }
