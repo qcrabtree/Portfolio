@@ -4,13 +4,6 @@
     font-family: 'Tangerine', cursive;
 }
 
-/* #particles-js {
-    background: #333;
-    object-fit: cover;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-} */
 
 
 canvas {
@@ -59,7 +52,7 @@ canvas {
 
 
 #particle {
-    background-color: rgb(94, 206, 122);
+    background-color: black;
     position: fixed;
     top:0;
     right:0;
@@ -95,3 +88,4 @@ canvas {
     max-height: 1005;
     overflow-y: initial !important;
 }
+
